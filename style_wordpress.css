@@ -1,0 +1,128 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body{
+  background-image: url("texture.jpg");
+  background-repeat: repeat;
+  margin-top: 2.5%;
+  font-family: 'Quicksand', sans-serif;
+}
+
+header{
+  width: 95%;
+  height: 300px;
+  margin: auto;
+  border: 10px solid #fff;
+  background-image: url("forest.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.opacity{
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity:0.5;
+}
+
+.titolo_icona{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border: 3px solid white;
+  padding: 10px 15px;
+  font-size: 25px;
+  color: white;
+}
+
+.icon{
+  color: white;
+  font-size: 45px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+nav{
+  background-color: #514337;
+}
+
+ul li{
+  display: inline-block;
+  font-size: 15px;
+  padding: 15px 15px;
+  border-right: 1px solid black;
+}
+
+ul{
+  text-align: center;
+}
+
+.menu > a{
+  text-decoration: none;
+  color: white;
+}
+
+.menu > a:hover{
+  color: gray;
+}
+
+nav{
+  height: 50px;
+  width: 95%;
+  margin: auto;
+}
+
+.colonna_sx{
+  font-size: 15px;
+  width: 20%;
+  margin: 2.5% 2.5%;
+  float: left;
+  background-color: white;
+  padding: 15px 15px;
+}
+
+.colonna_sx > a:visited{
+  color: #b1e24f;
+}
+
+.colonna_cent a:visited{
+  color: #b1e24f;
+}
+
+.colonna_cent{
+  font-size: 15px;
+  width: 40%;
+  margin-top: 2.5%;
+  float: left;
+  background-color: white;
+  padding: 20px 20px;
+
+}
+
+.colonna_dx{
+  font-size: 15px;
+  width: 30%;
+  height: 150px;
+  margin: 2.5% 2.5%;
+  float: left;
+  background-color: white;
+  padding: 20px 20px;
+}
+
+.colonna_dx_2{
+  font-size: 15px;
+  width: 30%;
+  margin-left: 2.5%;
+  float: left;
+  background-color: white;
+  padding: 20px 20px;
+}
+.colonna_dx_2 a:visited{
+  color: #b1e24f;
+}
