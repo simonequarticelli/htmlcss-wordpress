@@ -39,13 +39,31 @@ header{
   color: #f9f9f9;
 }
 
-.icon{
+.icon_big{
   color: #f9f9f9;
   font-size: 45px;
   position: absolute;
   top: 23%;
   left: 50%;
   transform: translate(-50%,-23%);
+}
+
+.icon_small_sx{
+  color: #f9f9f9;
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(-50%,-10%);
+}
+
+.icon_small_dx{
+  color: #f9f9f9;
+  font-size: 25px;
+  position: absolute;
+  top: 100%;
+  left: 140%;
+  transform: translate(-140%,-100%);
 }
 
 .rss{
@@ -75,10 +93,11 @@ ul{
 .menu > a{
   text-decoration: none;
   color: #f9f9f9;
+  display: block;
 }
 
 .menu > a:hover{
-  color: grey;
+  color: black;
 }
 
 nav{
