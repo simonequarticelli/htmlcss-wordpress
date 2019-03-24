@@ -1,6 +1,7 @@
 *{
   box-sizing: border-box;
   margin: 0;
+  padding:0;
 }
 
 body{
@@ -66,44 +67,33 @@ header{
   transform: translate(-140%,-100%);
 }
 
-.rss{
-  color: orange;
-  font-size: 15px;
-}
-
 nav{
   background-color: #514337;
+  height: 50px;
+  width: 95%;
+  margin: auto;
+}
+
+ul {
+  text-align: center;
+}
+
+li {
+  border-right: 1px solid black;
+  padding: 15px 15px;
+  display: inline-block;
 }
 
 li:last-child {
   border-right: none;
 }
 
-ul li{
-  display: inline-block;
-  font-size: 15px;
-  padding: 15px 15px;
-  border-right: 1px solid black;
+.menu a{
+  color:#f9f9f9;
 }
 
-ul{
-  text-align: center;
-}
-
-.menu > a{
-  text-decoration: none;
-  color: #f9f9f9;
-  display: block;
-}
-
-.menu > a:hover{
-  color: black;
-}
-
-nav{
-  height: 50px;
-  width: 95%;
-  margin: auto;
+.menu a:hover{
+  color: gray;
 }
 
 .colonna_sx,
@@ -118,6 +108,11 @@ nav{
 
 .colonna_sx{
   width: 20%;
+}
+
+.rss{
+  color: orange;
+  font-size: 15px;
 }
 
 .colonna_sx,
@@ -155,26 +150,17 @@ a{
   color: blue;
 }
 
-.colonna_cent a:visited{
-  color: #b1e24f;
-}
-
-.colonna_cent a:hover{
-  color: grey;;
-}
-
-.colonna_cent a:active{
-  color: blue;
-}
-
+.colonna_cent a:visited,
 .colonna_dx_2 a:visited{
   color: #b1e24f;
 }
 
+.colonna_cent a:hover,
 .colonna_dx_2 a:hover{
-  color: grey;
+  color: grey;;
 }
 
+.colonna_cent a:active,
 .colonna_dx_2 a:active{
   color: blue;
 }
